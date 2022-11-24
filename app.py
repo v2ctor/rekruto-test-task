@@ -12,6 +12,3 @@ def hello():
     name = request.args.get('name')
     message = request.args.get('message')
     return 'Hello {}! {}!'.format(name, message)
-
-
-app.run('0.0.0.0', port=443)
